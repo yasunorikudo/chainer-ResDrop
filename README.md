@@ -20,9 +20,11 @@ model = ResNet()
 
 # Traning speed
 
-Faster up to 25% per iteration than ResNet with no layer drop.
+About 25% faster per iteration than ResNet with no layer drop.
 
 # Sample result
 
 I trained ResNet101 with layer drop and ResNet101 with no layer drop for PASCAL VOC Action dataset.
 ResNet with layer drop improved the accuracy of test results about 4%.
+
+![](https://raw.githubusercontent.com/wiki/yasunorikudo/chainer-ResDrop/images/result.png)
