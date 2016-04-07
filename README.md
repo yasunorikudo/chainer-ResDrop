@@ -10,7 +10,7 @@ Implementation by Chainer. Original paper is [Deep Networks with Stochastic Dept
 
 # Usage
 
-In python terminal, run:
+In python script, write:
 
 ```
 from ResDrop152 import ResNet
@@ -18,11 +18,13 @@ model = ResNet()
 ```
 
 
-# Traning speed
+# Traning Speed
 
 Faster up to 25% per iteration than ResNet with no layer drop.
 
-# Sample result
+# Sample Result
 
 I trained ResNet101 with layer drop and ResNet101 with no layer drop for PASCAL VOC Action dataset.
 ResNet with layer drop improved the accuracy of test results about 4%.
+
+![](https://raw.githubusercontent.com/wiki/yasunorikudo/chainer-ResDrop/images/result.png)
